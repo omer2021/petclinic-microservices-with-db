@@ -10,5 +10,4 @@ chmod +x /usr/local/bin/docker-compose
 dnf install git -y
 dnf install java-11-amazon-corretto -y
 cd /home/ec2-user && git clone https://github.com/clarusway/petclinic-microservices-with-db.git
-cd petclinic-microservices-with-db
 git checkout dev
